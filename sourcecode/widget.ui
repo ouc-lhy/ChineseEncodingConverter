@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="res.qrc">
-    <normaloff>:/icons/icons/convert.png</normaloff>:/icons/icons/convert.png</iconset>
+    <normaloff>:/icons/icons/convert.ico</normaloff>:/icons/icons/convert.ico</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -42,7 +42,7 @@
        <item>
         <widget class="QComboBox" name="comboBoxOrigin">
          <property name="currentText">
-          <string>GB2312</string>
+          <string>Unicode</string>
          </property>
          <item>
           <property name="text">
@@ -84,7 +84,7 @@
        <item>
         <widget class="QComboBox" name="comboBoxTarget">
          <property name="currentText">
-          <string>UTF-8</string>
+          <string>Unicode</string>
          </property>
          <item>
           <property name="text">
